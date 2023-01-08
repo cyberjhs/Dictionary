@@ -1,0 +1,149 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  user-select: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.Header{
+  background-color: #4C72BF;
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+  padding: 1rem 0;
+}
+.Main{
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 5rem;
+  gap: 2rem;
+}
+
+.nav span{
+  background-color: #4C72BF;
+  padding: 0.7rem 2rem;
+  font-size: 1.3rem;
+  color: white;
+  border: 0.5px solid black;
+  margin-right: 1rem;
+}
+.addData{
+  border: 2px solid #4C72BF;
+  height: 70vh;
+  position: relative;
+}
+.addData>div:first-child{
+  border: 2px solid #4C72BF;
+  font-size: 1.4rem;
+  width: fit-content;
+  padding: 1rem 3rem;
+  border-top: none;
+  border-left: none;
+}
+.addButton{
+  position: absolute;
+  width: fit-content;
+  background-color: #4C72BF;
+  font-size: 1.4rem;
+  color: white;
+  padding: 0.6rem 3rem;
+  right: 20px;
+  bottom: 20px;
+  cursor: pointer;
+  text-align: center;
+}
+.addButton:hover{
+  background-color: #254d9c;
+}
+.tableData{
+  position: relative;
+  height: 310px;
+  margin-top: 2rem;
+  overflow-y: scroll;
+}
+
+table{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+thead{
+  background-color: #254d9c;
+  position: fixed;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+input{
+  padding: 0.2rem;
+}
+tbody{
+  background-color: #EAEEF6;
+  margin-top: 2.8rem;
+  color: black;
+}
+
+tbody input{
+  padding: 0.5rem;
+  font-size: 1.1rem;
+  width: 180px;
+}
+table td{
+  width: 210px;
+  padding: 0.7rem;
+  border: 1px solid black;
+}
+table{
+  border-collapse: collapse;
+}
+.dataFinding{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-left: 4rem;
+  margin-top: 2rem;
+}
+.dataFinding span{
+  background-color: #4C72BF;
+  color: white;
+  font-size: 1.4rem;
+  padding: 0.6rem 3rem;
+  cursor: pointer;
+}
+.dataFinding span:hover{
+  background-color: #254d9c;
+}
+.dataFinding>input{
+  font-size: 1.2rem;
+  padding: 0.3rem 0.5rem;
+  height: 3rem;
+}
+.dataSec{
+  display: flex;
+  width: 90%;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  gap: 2rem;
+  height: 200px;
+  margin-left: 4rem;
+  margin-top: 2rem;
+  padding: 0px 0.5rem;
+  font-size: 1.2rem;
+}
+.dataSec::-webkit-scrollbar{
+  display: none;
+}
+.dataSec span>span{
+  font-weight: bold;
+}
+.mainData{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 300px;
+  height: 200px;
+  padding: 0.7rem 0.5rem;
+  border: 2px solid black;
+}
